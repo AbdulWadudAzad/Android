@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EditText1</string>
+    <string name="addition_hint">Enter number 1</string>
+    <string name="substruction_hint">Enter number 2</string>
+</resources>

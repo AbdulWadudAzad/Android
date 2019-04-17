@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/edittext1id"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:hint="@string/addition_hint"
+       android:textStyle="bold"
+       android:inputType="numberDecimal"
+       android:backgroundTint="#080707"
+       android:layout_marginBottom="15dp"
+       android:textCursorDrawable="@null"/>
+    <EditText
+        android:id="@+id/edittext2id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/substruction_hint"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#080707"
+        android:textCursorDrawable="@null"/>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="15dp">
+      <Button
+          android:id="@+id/addbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Add"
+          android:textStyle="bold"
+          android:textAllCaps="false"
+
+          />
+      <Button
+          android:id="@+id/subbbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Subb"
+          android:textStyle="bold"
+          android:textAllCaps="false"
+          />
+
+  </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+</LinearLayout>

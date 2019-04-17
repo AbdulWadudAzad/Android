@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TableRow
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp">
+
+       <TextView
+           android:id="@+id/textViewId"
+           android:text="ID"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           />
+       <EditText
+           android:id="@+id/editTextId"
+           android:hint="0"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20sp" />
+
+   </TableRow>
+
+       <TableRow
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:layout_margin="10dp">
+
+           <TextView
+               android:id="@+id/textViewProName"
+               android:text="Product Name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               />
+           <EditText
+               android:id="@+id/editTextProName"
+               android:hint="Enter Product Name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp" />
+
+       </TableRow>
+       <TableRow
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:layout_margin="10dp">
+
+           <TextView
+               android:id="@+id/textViewProQty"
+               android:text="Product Qty"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               />
+           <EditText
+               android:id="@+id/editTextProQty"
+               android:hint="Enter Product Qty"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:inputType="numberDecimal"/>
+
+       </TableRow>
+
+   </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/addId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="saveProduct"/>
+
+        <Button
+            android:id="@+id/findId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="findProductByProId"/>
+
+        <Button
+            android:id="@+id/deleteId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="deleteProductByProId"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <ListView
+            android:id="@+id/listViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+</LinearLayout>
