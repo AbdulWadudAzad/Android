@@ -18,7 +18,7 @@ WebSettings webSettings= webView.getSettings();
 webSettings.setJavaScriptEnabled(true);
 
 webView.setWebViewClient(new WebViewClient());  //use to open all link by existing application
-        webView.loadUrl("http://www.du.ac.bd/");
+        webView.loadUrl("https://www.facebook.com/");
     }
 
     @Override
