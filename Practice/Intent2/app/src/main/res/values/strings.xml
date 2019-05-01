@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="button1Text">Second Act.</string>
+    <string name="textForMainAct">Main Avtivity</string>
+    <string name="button2Text">Main Act.</string>
+    <string name="textForSecondAct">Second Avtivity</string>
+</resources>

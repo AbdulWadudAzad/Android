@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bangladeshButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Bangladesh_Button"
+        android:background="#391C6D"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:drawableLeft="@mipmap/bangladeshflag"
+        android:paddingHorizontal="10dp"
+        />
+
+    <Button
+        android:id="@+id/pakistanButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pakistan_Button"
+        android:background="#391C6D"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:drawableLeft="@mipmap/pakistanflag"
+        android:paddingHorizontal="10dp"/>
+
+    <Button
+        android:id="@+id/turkeyButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Turkey_Button"
+        android:background="#391C6D"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:drawableLeft="@mipmap/turkeyflag"
+        android:paddingHorizontal="10dp"/>
+</LinearLayout>

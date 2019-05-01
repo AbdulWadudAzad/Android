@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "329010379717",
+    "firebase_url": "https://maps-86f05.firebaseio.com",
+    "project_id": "maps-86f05",
+    "storage_bucket": "maps-86f05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329010379717:android:4869d7a625c829e8",
+        "android_client_info": {
+          "package_name": "com.azad.goolgemapex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329010379717-ujvudh1ov15tfe6k5l33ilfd7bo9ubgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzLa7_ZDObIAGt7WWAKLcBYm7ANpciuHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329010379717-ujvudh1ov15tfe6k5l33ilfd7bo9ubgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

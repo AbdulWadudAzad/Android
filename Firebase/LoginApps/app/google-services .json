@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655546345580",
+    "firebase_url": "https://login-b2bf8.firebaseio.com",
+    "project_id": "login-b2bf8",
+    "storage_bucket": "login-b2bf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655546345580:android:3c753743671217ce",
+        "android_client_info": {
+          "package_name": "com.azad.loginapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655546345580-4h35tomeimk0fd65mop26i4vkhsqpjcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbWk2LPEOCz9qtL251EhyVNvmHuA-ft6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655546345580-4h35tomeimk0fd65mop26i4vkhsqpjcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
