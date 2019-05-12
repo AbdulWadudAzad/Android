@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/countryFlagId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/afghanistan" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/countryNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BanglaBanda"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="#383B3C"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/countryMoreDetailsId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click For Details"
+                android:layout_weight="1"
+                android:textStyle="normal"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#383B3C"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

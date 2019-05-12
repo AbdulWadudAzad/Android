@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GetDataFromAnotherToMainActivity</string>
+    <string name="buttonMainActText">Go To Secont Act.</string>
+    <string name="buttonSecondActText">Go To main Act.</string>
+
+</resources>
