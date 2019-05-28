@@ -11,9 +11,9 @@
     android:id="@+id/listViewId"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:listSelector="#03A9F4"
+    android:listSelector="#383B3C"
     android:outlineSpotShadowColor="#464343"
-    android:divider="#8D831A"
-    android:dividerHeight="1.5dp"></ListView>
+    android:divider="#383B3C"
+    android:dividerHeight="3dp"></ListView>
 
 </LinearLayout>

@@ -28,4 +28,5 @@
         <item>Mongolia</item>
         <item>Myanmar</item>
     </string-array>
+    <string name="search_text">Search a Country Name</string>
 </resources>
