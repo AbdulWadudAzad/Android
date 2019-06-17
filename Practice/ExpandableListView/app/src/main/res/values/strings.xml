@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ExpandableListView</string>
+
+    <string-array name="abbreviation_list_header">
+        <item>
+          ACC
+        </item>
+        <item>
+            AI
+        </item>
+        <item>
+           ARPANET
+        </item>
+        <item>
+ALGOL
+        </item>
+        <item>
+ALU
+        </item>
+        <item>
+AOL
+        </item>
+        <item>
+API
+        </item>
+        <item>
+APT
+        </item>
+        <item>
+ARP
+        </item>
+        <item>
+ASP
+        </item>
+
+    </string-array>
+
+    <string-array name="abbreviation_list_cild">
+        <item>
+            Advance Audio Coding
+            \n\nAAC is defined as an Audio Coding which is able to achive better quality of .....
+        </item>
+        <item>
+Artificial Intelligence
+            \n\nAI is the programming installed in a machine which help the machine to take decisionn...
+        </item>
+        <item>
+Advanced Research Projects Agency Network
+            \n\nARPANET was the first network to implement the protocol suite TCP/IP and an ....
+        </item>
+        <item>
+Algorithmic Language
+            \n\nALGOL is an imperative computer programming language developed in 1950s
+        </item>
+        <item>
+Arithmetic Logic Unit
+            \n\nALU is defined as a digital circuit which id used to execute arithmetic and logical ....
+        </item>
+        <item>
+America Online
+            \n\nAOL lnc. is a subsidiary of Verizon Communications, an American based online ....
+        </item>
+
+        <item>
+Application Program Interface
+            \n\nAPI is a set of tools, protocols, and subroutine definitions for building up ....
+        </item>
+        <item>
+Automatically Programmed Tool
+            \n\nAPT is a high-level programming language for computer commonly used to create ....
+        </item>
+        <item>
+Address Resolution Protocol
+            \n\nARP is used to basically track the IP network addresses of a hardware used for ....
+        </item>
+        <item>
+Active Server Pages
+            \n\nASP is a first server-side script engine of Microsoft, used for web pages ....
+        </item>
+    </string-array>
+
+</resources>

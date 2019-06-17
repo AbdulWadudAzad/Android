@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScrollTab</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">fragment 1</string>
+    <string name="hello_blank_fragment2">fragment 2</string>
+    <string name="hello_blank_fragment3">fragment 3</string>
+
+</resources>
