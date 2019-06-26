@@ -7,6 +7,12 @@
     android:id="@+id/pagerId"
     tools:context=".MainActivity">
 
-
+<androidx.viewpager.widget.PagerTitleStrip
+    android:id="@+id/pageTitleId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff00"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"></androidx.viewpager.widget.PagerTitleStrip>
 
 </androidx.viewpager.widget.ViewPager>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/skyColorId"
+        android:title="Sky Color"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/orangeColorId"
+        android:title="Orange Color"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/greenColorId"
+        android:title="Green Color"
+        app:showAsAction="never"
+        />
+
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string name="hospital">Hospital </string>
+    <string name="resturent"> Resturent</string>
+    <string name="school"> School</string>
+    <string name="transport"> Transport</string>
+
+</resources>

@@ -10,23 +10,23 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
 public class MainActivity extends FragmentActivity {
-private ViewPager viewPager;
+    private ViewPager viewPager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        viewPager=(ViewPager) findViewById(R.id.pagerId);
+        viewPager = findViewById(R.id.pagerId);
 
-FragmentManager fragmentManager=getSupportFragmentManager();
-        CustomAdapter adapter=new CustomAdapter(fragmentManager);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        CustomAdapter adapter = new CustomAdapter(fragmentManager);
         viewPager.setAdapter(adapter);
     }
 }
 
 
-
-class CustomAdapter extends FragmentStatePagerAdapter{
+class CustomAdapter extends FragmentStatePagerAdapter {
 
     public CustomAdapter(FragmentManager fm) {
         super(fm);
@@ -34,13 +34,13 @@ class CustomAdapter extends FragmentStatePagerAdapter{
 
     @Override
     public Fragment getItem(int position) {
-        Fragment fragment=null;
-        if(position==0){
-            fragment=new Fragment1();
-        }else if(position==0){
-            fragment=new Fragment2();
-        } else if(position==0){
-            fragment=new Fragment3();
+        Fragment fragment = null;
+        if (position == 0) {
+            fragment = new Fragment1();
+        } else if (position == 0) {
+            fragment = new Fragment2();
+        } else if (position == 0) {
+            fragment = new Fragment3();
         }
 
         return fragment;
@@ -50,4 +50,20 @@ class CustomAdapter extends FragmentStatePagerAdapter{
     public int getCount() {
         return 3;
     }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        if(position==0){
+            return "Tab 1";
+        }else if(position==1){
+            return "Tab 2";
+        }else if(position==2){
+            return "Tab 3";
+        }
+
+
+        return null;
+    }
+
+
 }
