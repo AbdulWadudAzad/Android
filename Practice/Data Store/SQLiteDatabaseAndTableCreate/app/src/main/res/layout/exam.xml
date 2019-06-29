@@ -1,76 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:weightSum="2"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:weightSum="7">
+        android:orientation="vertical"
+        android:weightSum="5">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
             android:paddingLeft="5dp"
-            android:layout_weight="3">
+            android:layout_weight="1">
 
             <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text="Name :"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="Name :"
                 android:layout_marginTop="10dp"
                 android:textSize="20dp"
 
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:text="Age :"
-                android:layout_marginTop="15dp"
-                android:textSize="20dp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:text="Gender :"
-                android:layout_marginTop="15dp"
-                android:textSize="20dp"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:text="Id :"
-                android:layout_marginTop="15dp"
-                android:textSize="20dp"
-                />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="4">
 
             <EditText
-            android:id="@+id/nameEditTextId"
-            android:inputType="text"
+                android:id="@+id/nameEditTextId"
+                android:inputType="text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Enter Name"
+                />
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter Name"
-            />
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:layout_weight="1">
+
+
 
             <EditText
                 android:id="@+id/ageEditTextId"
@@ -89,7 +62,7 @@
 
             <EditText
                 android:id="@+id/idEditTextId"
-                android:inputType="number"
+                android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Id only for Update/Delete"
@@ -98,7 +71,7 @@
                 />
 
 
-            
+
 
         </LinearLayout>
 
@@ -115,7 +88,7 @@
         android:layout_height="0dp"
         android:orientation="vertical"
         android:layout_weight="1">
-        
+
         <Button
             android:id="@+id/addButtonId"
             android:layout_width="match_parent"
